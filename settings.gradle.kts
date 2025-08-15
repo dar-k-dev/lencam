@@ -16,3 +16,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "AdvancedCamera"
 include(":app")
+include(":camera-core")
+include(":imaging-core")
+include(":ml-core")
+include(":media-core")

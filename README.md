@@ -21,10 +21,10 @@ Cloud-built Android camera app scaffold focused on maximum image/video quality, 
 2. Open the GitHub repo -> Actions -> latest run -> download the artifact `advanced-camera-debug-apk`.
 3. Sideload on your Android device (enable "Install unknown apps").
 
-## Roadmap (next milestones)
-- Multi-frame HDR, Night mode, Super Resolution
-- HEIC/JPEG/RAW outputs; high-bitrate HEVC video with HDR where supported
-- Pro controls, histograms, zebra, focus peaking
+## Roadmap (implemented scaffolding)
+- Multi-frame HDR, Night, SR, Portrait: module APIs and stubs wired end-to-end
+- HEIC/JPEG/RAW outputs, HEVC/HDR video: media-core scaffolding
+- Pro controls, histograms, zebra, focus peaking: UI hooks prepared in app
 
 ## Notes
 - Quality parity with iPhone depends on device sensor/ISP; our pipeline aims to maximize results on each device with computational photography.
