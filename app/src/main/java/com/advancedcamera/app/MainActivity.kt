@@ -157,7 +157,7 @@ fun CameraScreen(activity: ComponentActivity) {
 
             val recorder = Recorder.Builder()
                 .setQualitySelector(
-                    QualitySelector.from(
+                    QualitySelector.fromOrderedList(
                         listOf(Quality.UHD, Quality.FHD, Quality.HD),
                         FallbackStrategy.higherQualityOrLowerThan(Quality.FHD)
                     )
